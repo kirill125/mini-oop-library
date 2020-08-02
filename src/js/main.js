@@ -1,5 +1,6 @@
 import Customizer from "./customizator";
 
 window.addEventListener("DOMContentLoaded", () => {
-    new Customizer().render();
+    const panel = new Customizer();
+    panel.render();
 });
